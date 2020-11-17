@@ -1,0 +1,21 @@
+{
+  "name": "bogosoft/claims",
+  "description": "A library that models assertions (claims) made by an issuer or authority.",
+  "autoload": {
+    "psr-4": {
+      "Bogosoft\\Claims\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Bogosoft\\Claims\\Tests\\": "tests/"
+    }
+  },
+  "license": "MIT",
+  "require": {
+    "php": ">=7.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.4"
+  }
+}
